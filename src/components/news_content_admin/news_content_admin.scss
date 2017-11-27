@@ -1,0 +1,138 @@
+.content {
+
+    > .form {
+        .button {
+            background: #fcfcfc;
+            background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#fcfcfc));
+            background: -webkit-linear-gradient(top, #ffffff, #fcfcfc);
+            background: -moz-linear-gradient(top, #ffffff, #fcfcfc);
+            background: -ms-linear-gradient(top, #ffffff, #fcfcfc);
+            background: -o-linear-gradient(top, #ffffff, #fcfcfc);
+            padding: 10px 20px;
+            -webkit-border-radius: 18px;
+            -moz-border-radius: 18px;
+            border-radius: 18px;
+            text-shadow: rgba(0,0,0,.4) 0 1px 0;
+            color: #ff0004;
+            font-size: 15px;
+            font-family: Georgia, serif;
+            text-decoration: none;
+            vertical-align: middle;
+
+            &:hover {
+                border-top-color: #e81212;
+                background: #e81212;
+                color: #fcfcfc;
+             }
+
+             &:active {
+                border-top-color: #0596f7;
+                background: #0596f7;
+            }
+        }
+
+        input,
+        span,
+        label,
+        textarea {
+          display: block;
+          margin: auto;
+          padding: 10px 0;
+          border: none;
+          font-size: 22px;
+          font-family: 'Arima Madurai', cursive;
+        }
+        
+        textarea,
+        input {
+          border-bottom: 2px solid #180909;
+        }
+        
+        label {
+            display: block;
+            margin: auto;
+            text-align: center;
+            padding: 10px 0;
+          font-family: 'Lobster', cursive;
+        }
+
+        textarea:focus,
+        input:focus {
+          outline: 0;
+        }
+
+        > .selected {
+            display: block;
+            margin: auto;
+            width: 150px;
+            height: 150px;
+            border: 1px solid rgb(205, 6, 255);
+            border-radius: 4px;
+            padding: 5px;
+    
+            &:hover {
+                box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+            }
+        }
+    }
+
+    > .user-content {
+        .wrap {
+            height: 230px;
+
+            > .news-item {
+                width: 70%;
+                display: inline-block;
+                position: relative;
+            }
+
+            > .remove {
+                width: 15%;
+                margin: 0 60px;
+                margin-top: 50px;
+                display: inline-block;
+                position: inherit;
+                float: left;
+            }
+        }
+    }
+    
+    > h1 {
+        font-family: 'Kaushan Script', cursive;
+        text-align: center;
+        margin: 0;
+        padding: 20px 0;
+    }
+    
+}
+.choose {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.submit {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+h2 {
+    margin: 0;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.close {
+    float: right;
+}
+
+.images {
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 8px;
+        margin: 50px 20px 0;
+    }
+}

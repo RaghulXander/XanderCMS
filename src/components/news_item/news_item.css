@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+.news-item {
+  height: 150px;
+  width: 530px;
+  display: block;
+  margin: auto;
+  -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+  background: url("../../images/news.jpg") no-repeat center center fixed;
+  margin-bottom: 40px; }
+  .news-item > .image {
+    width: 13%;
+    float: left; }
+    .news-item > .image > .news-thumb {
+      width: 70px;
+      height: 70px;
+      padding: 10px; }
+  .news-item > .info {
+    margin-left: 20px;
+    margin-right: 20px; }
+    .news-item > .info > .title {
+      padding-top: 15px;
+      font-size: 1.3rem;
+      color: white;
+      font-family: 'Shrikhand', cursive; }
+    .news-item > .info > .separator {
+      margin-left: 70px;
+      border: 1px solid #d42626; }
+    .news-item > .info > .description {
+      text-align: justify;
+      font-family: 'Courgette', cursive;
+      padding-top: 10px;
+      font-size: 16px;
+      line-height: 150%;
+      color: #161616;
+      font-weight: 600; }
+
+.remove {
+  position: relative;
+  left: 20%;
+  margin-top: 125px; }

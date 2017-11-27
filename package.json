@@ -13,9 +13,17 @@
     "firebase": "^4.6.0",
     "image-webpack-loader": "^3.4.2",
     "node-sass": "^4.5.3",
+    "node-sass-chokidar": "0.0.3",
     "react": "^16.0.0",
+    "react-alert": "^2.4.0",
     "react-dom": "^16.0.0",
+    "react-image-picker": "^1.1.1",
+    "react-modal": "^3.1.4",
+    "react-read-more": "^1.0.0",
     "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-show-more": "^1.1.1",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
@@ -24,10 +32,14 @@
     "webpack-hot-middleware": "^2.20.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build-js": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "server-start": "webpack-dev-server --inline"
+    "server-start": "webpack-dev-server --inline",
+    "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive"
   }
 }

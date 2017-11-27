@@ -1,0 +1,13 @@
+.news-content {
+    > .text {
+        font-family: 'Kaushan Script', cursive;
+        padding: 30px 0;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    > .news {
+        display: block;
+        margin: auto;
+    }
+}

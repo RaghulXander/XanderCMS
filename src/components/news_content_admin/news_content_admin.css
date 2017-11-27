@@ -1,0 +1,106 @@
+.content > .form .button {
+  background: #fcfcfc;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#fcfcfc));
+  background: -webkit-linear-gradient(top, #ffffff, #fcfcfc);
+  background: -moz-linear-gradient(top, #ffffff, #fcfcfc);
+  background: -ms-linear-gradient(top, #ffffff, #fcfcfc);
+  background: -o-linear-gradient(top, #ffffff, #fcfcfc);
+  padding: 10px 20px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0;
+  color: #ff0004;
+  font-size: 15px;
+  font-family: Georgia, serif;
+  text-decoration: none;
+  vertical-align: middle; }
+  .content > .form .button:hover {
+    border-top-color: #e81212;
+    background: #e81212;
+    color: #fcfcfc; }
+  .content > .form .button:active {
+    border-top-color: #0596f7;
+    background: #0596f7; }
+
+.content > .form input,
+.content > .form span,
+.content > .form label,
+.content > .form textarea {
+  display: block;
+  margin: auto;
+  padding: 10px 0;
+  border: none;
+  font-size: 22px;
+  font-family: 'Arima Madurai', cursive; }
+
+.content > .form textarea,
+.content > .form input {
+  border-bottom: 2px solid #180909; }
+
+.content > .form label {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Lobster', cursive; }
+
+.content > .form textarea:focus,
+.content > .form input:focus {
+  outline: 0; }
+
+.content > .form > .selected {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #cd06ff;
+  border-radius: 4px;
+  padding: 5px; }
+  .content > .form > .selected:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5); }
+
+.content > .user-content .wrap {
+  height: 230px; }
+  .content > .user-content .wrap > .news-item {
+    width: 70%;
+    display: inline-block;
+    position: relative; }
+  .content > .user-content .wrap > .remove {
+    width: 15%;
+    margin: 0 60px;
+    margin-top: 50px;
+    display: inline-block;
+    position: inherit;
+    float: left; }
+
+.content > h1 {
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0; }
+
+.choose {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px; }
+
+.submit {
+  margin: auto;
+  margin-top: 20px;
+  display: block; }
+
+h2 {
+  margin: 0;
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 20px; }
+
+.close {
+  float: right; }
+
+.images img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  margin: 50px 20px 0; }
