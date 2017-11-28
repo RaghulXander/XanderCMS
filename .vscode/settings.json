@@ -1,0 +1,12 @@
+{
+    "vscode-mysql.connections":
+    [
+        {
+            "server": "localhost",
+            "database": "mydb",
+            "user": "root",
+            "passowrd": "ADMIN2017"
+        }
+        
+    ]
+}
